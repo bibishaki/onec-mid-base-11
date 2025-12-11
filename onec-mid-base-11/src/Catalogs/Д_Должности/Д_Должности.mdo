@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ad204e5e-cdd8-4611-886f-8ea2c78c5488">
+  <producedTypes>
+    <objectType typeId="de440224-d796-4d5c-8928-c4405e460f1b" valueTypeId="15464431-fb73-4f10-aa2c-ecfa8369e71b"/>
+    <refType typeId="3daa53e6-f341-4946-acb6-bba5373f7580" valueTypeId="52ea60e4-cd6a-4869-8806-1d1fccce7193"/>
+    <selectionType typeId="9824b20a-8c74-4b0b-a687-4f55405c0976" valueTypeId="e4798371-b3e2-4f2f-85ff-7b33a98805a0"/>
+    <listType typeId="5addaaf8-e556-4e75-9540-74068962dbfa" valueTypeId="c0383ae3-5351-4de2-9dcc-79af82f5ae1b"/>
+    <managerType typeId="2cc2920f-d418-438a-8396-a6792e04c327" valueTypeId="f8c995a4-bb6d-45f9-bcf8-8e1f4180f7b2"/>
+  </producedTypes>
+  <name>Д_Должности</name>
+  <synonym>
+    <key>ru</key>
+    <value>Должности (Д)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Д_Должности.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Д_Должности.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Должность (Д)</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Должности (Д)</value>
+  </listPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Д_Должности.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="0385ef24-957a-4071-955d-1df480542266">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <multiLine>true</multiLine>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="931f54f6-04c3-4b0e-a146-55cdd1ff1da2">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>
